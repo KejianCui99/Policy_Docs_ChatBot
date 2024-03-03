@@ -1,0 +1,12 @@
+python-dotenv
+langchain
+qdrant_client
+openai
+tiktoken
+python-pptx
+python-docx
+langchainhub
+unstructured
+"unstructured[pdf]"
+pdfminer.six
+Office365-REST-Python-Client
