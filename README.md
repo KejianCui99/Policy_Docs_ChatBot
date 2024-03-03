@@ -1,5 +1,5 @@
 # Policy_Docs_ChatBot
-This is a ChatBot that answers questions about policy documents. Note that the user needs to update the API keys with their own to make it work.
+This is a ChatBot that answers questions about policy documents. Note that the user needs to update information like setting environment variables (API keys, SharePoint user and password) and update domain names where necessary with their own to make it work.
 
 In detail, the ChatBot works in the following way:
 
