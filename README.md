@@ -11,3 +11,5 @@ The second step in “PolicyDocProcessing.ipynb” is to build a vector database
 
 **Question answering**
 When the user asks a question to the ChatBot app, the question is embedded using the same embedding method OpenAIEmbeddings() used above for storing the document chunks, and the vector store performs a semantic search to find the most relevant chunks in the vector database to the question posed. The top results and the questions are sent to OpenAI to generate the final answer. The LangChain library connects the vector store and the OpenAI LLM. Note that this template inherently restricts the language model only to answer questions about the given context. General questions, that might be asked of ChatGPT, can be posed but cannot be answered by the app. When asked something not within scope, like “What is the capital of Boliva?” Franklin will respond with, “I don't know the answer to the question as it is unrelated to the provided context and chat history.”.
+
+# This is the test branch
